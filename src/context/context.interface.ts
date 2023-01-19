@@ -4,4 +4,5 @@ export interface IBotContext extends Context {
 }
 export interface SessionData {
     courseLike: boolean;
+    week: 1 | 2;
 }
